@@ -161,10 +161,12 @@ img{ max-width: 100%; display: block; }
 }
 .top__bg{
   position: absolute; inset: 0;
-  background:
+  background-image: url(media/myGIF.gif)
+  /* background:
+
     radial-gradient(60% 50% at 50% 20%, rgba(143,227,217,0.14), transparent 60%),
     radial-gradient(80% 60% at 50% 100%, rgba(232,138,90,0.10), transparent 60%),
-    var(--bg);
+    var(--bg); */
 }
 .top__grain{
   position: absolute; inset: 0;
@@ -203,7 +205,7 @@ img{ max-width: 100%; display: block; }
 }
 .top__scroll span{
   display: block;
-  width: 1px; height: 44px;
+  width: 3px; height: 44px;
   background: linear-gradient(var(--accent), transparent);
   animation: scrollpulse 1.8s ease-in-out infinite;
 }
